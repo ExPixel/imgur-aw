@@ -10,4 +10,20 @@ public class ImgurNotification {
 	private long account_id;
 	private boolean viewed;
 	private JsonElement metaData;
+
+	public long getId() {
+		return id;
+	}
+
+	public long getAccountId() {
+		return account_id;
+	}
+
+	public boolean isViewed() {
+		return viewed;
+	}
+
+	public JsonElement getMetaData() {
+		return metaData;
+	}
 }

@@ -5,4 +5,5 @@ package com.github.expixel.imgur.endpoints;
  * @author ExPixel
  */
 public interface ImgurNotificationEndpoint {
+	// todo finish this.
 }
